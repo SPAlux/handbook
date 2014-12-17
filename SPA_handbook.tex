@@ -1,0 +1,81 @@
+\documentclass[runningheads,a4paper]{llncs}
+
+\usepackage{amssymb}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+
+\usepackage{url}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{hyperref}
+\usepackage{xcolor,colortbl}
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables for horizontal lines
+\usepackage{multirow}
+
+
+\urldef{\mailsa}\path|firstname.lastname@uni.lu|    %, yves.letraon
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+\begin{document}
+
+\mainmatter  % start of an individual contribution
+
+\title{SPA's Handbook v.1.4\thanks{Last updated on Oct 01$^{st}$, 2014 (version 1.4). We would like to recommend that you check for new versions of this document by the end of every month (e.g. when receiving your monthly payroll would be a good reminder :D)} : \\
+Some practical information for (new) SnTers\thanks{If you have any comments/suggestions/contributions to the content for improving this document, please feel free to contact the SPA's representatives: \url{http://wwwen.uni.lu/snt/phd_student_association}.}}
+
+% a short form should be given in case it is too long for the running head
+\titlerunning{SPA's Handbook: Some Practical Information}
+
+% the name(s) of the author(s) follow(s) next
+\author{The SnT PhD student Association (SPA) et al.
+}
+%
+%\authorrunning{Lecture Notes in Computer Science: Authors' Instructions}
+% (feature abused for this document to repeat the title also on left hand pages)
+
+% the affiliations are given next; don't give your e-mail address
+% unless you accept that it will be published
+\institute{Interdisciplinary Centre for Security, Reliability and Trust (SnT),\\
+University of Luxembourg (UL), \\
+4 rue Alphonse Weicker, L-2721 Luxembourg\\
+\url{http://wwwen.uni.lu/snt/phd_student_association}
+%\mailsa\\
+}
+%\toctitle{Lecture Notes in Computer Science}
+%\tocauthor{Authors' Instructions}
+\maketitle
+
+\begin{abstract}
+\input{abstract.tex}
+
+\keywords{Handbook, Newcomer, Guideline, SPA, SnT, Luxembourg}
+\end{abstract}
+
+\graphicspath{{Figs/PNG/}{Figs/PDF/}{Figs/}}
+
+%%%%%%%%%%%% SECTION %%%%%%%%%%%%%%%%%%%%%%
+
+\input{introduction.tex}
+\input{traveling2Lux.tex}
+\input{accommodation.tex}
+\input{EURAXESS.tex}
+\input{justArrived}
+\input{furniture}
+\input{rentAcar}
+\input{medicalDoc}
+\input{buyAcar}
+%\input{OLAI}
+\input{transportation}
+\input{softSkills}
+\input{sport}
+\input{4parents}
+
+\input{ack.tex}
+
+\bibliographystyle{abbrv}
+\bibliography{refs}  % _ref.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+
+\end{document}
+
+
